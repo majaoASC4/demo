@@ -1,0 +1,251 @@
+html,body {
+     width: 100%;
+     overflow-x: hidden;
+}
+
+@font-face {
+     font-family: "Open Sans";
+     src: url("fonts/Open Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+     font-family: "Open Sans";
+     src: url("fonts/Open Sans/OpenSans-Semibold.ttf");
+     font-weight: bold;
+}
+
+@font-face {
+     font-family: "Open Sans";
+     src: url("fonts/Open Sans/OpenSans-Bold.ttf");
+     font-weight: bolder;
+}
+
+@font-face {
+     font-family: "Open Sans";
+     src: url("fonts/Open Sans/OpenSans-Light.ttf");
+     font-weight: lighter;
+}
+
+body {
+     font-weight: 300;
+     font-size: 1rem;
+     font-family: "Open Sans";
+     line-height: 1.6;
+     background-color: #f8f9fa;
+}
+
+.disappear {
+     display: none;
+}
+
+
+
+@media(max-width: 1200px){
+     .hidden-lg {
+          display: none;
+     }
+}
+
+@media(min-width: 1200px){
+     .about{
+          width: 1250px;
+          max-width: 100%;
+     }
+}
+
+.navbar {
+     background-color: #3097D1 !important;
+     padding: 0.3rem 1rem;
+     font-size: 0.9rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+     color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+     color: white;
+}
+
+#sign-out {
+     color: white;
+     padding: 0 1rem;
+}
+
+.about {
+     padding: 10px 0;
+}
+
+.about-sec {
+     padding: 0;
+}
+.user-avatar-small {
+     height: 2.2rem;
+}
+
+.user-description {
+     font-size: 0.8rem;
+}
+
+.user-public-data .list-group-item {
+     padding: 0.2rem 1rem;
+     font-size: 0.8rem;
+}
+
+.about {
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 1rem;
+}
+
+.about-sec .card {
+     margin-bottom: 1.5rem;
+}
+
+.about-sec .card {
+     padding: 1rem;
+}
+
+.about .about-sec .user-intro {
+     padding: 0;
+}
+
+.user-public-data .list-group-item {
+     border-style: none;
+}
+
+.img-constraint {
+     height: 8rem;
+     overflow: hidden;
+}
+
+.about-sec .user-avatar {
+     height: 5rem;
+     border: 1px solid white;
+     margin-top: -4rem;
+}
+
+.message-box {
+     padding: 10px;
+}
+
+.message-box .input-group, .message-box .post-request , .message-box .post-button{
+     max-height: 35px;
+}
+
+.post-button {
+     padding: 0 !important;
+}
+.post-button .fa {
+     padding: 0.6rem;
+}
+
+.post-button {
+     padding: 0.5rem 0.8rem;
+     border-radius: 0px 5px 5px 0px;
+     border: 1px solid rgba(0,0,0,0.15);
+     background-color: white;
+}
+
+.feed-sec .card{
+     border: none;
+}
+
+.feed-sec .user-avatar {
+     height: 3em;
+}
+
+.feed-sec .col-10 {
+     padding-left: 2rem;
+     /*margin-left: 1rem;*/
+}
+
+.replies .col-10 {
+     padding-left: 1rem;
+}
+
+.post-header {
+     margin-top: 0.5rem;
+     margin-bottom: 0.5rem;
+}
+
+.post-header h6, .post-header p{
+     margin: 0;
+     white-space: nowrap;
+     overflow: hidden;
+}
+
+.timestamp {
+     color: gray;
+     font-size: 0.7rem;
+}
+
+.avatar {
+     height: 2rem;
+}
+
+.replies {
+     font-size: 0.8rem;
+}
+
+.replies strong {
+     font-weight: 600;
+}
+
+.post-owner {
+     font-weight: 400;
+}
+
+.misc .card {
+     padding: 1rem;
+}
+.badge {
+     font-weight: 300;
+     background-color: white;
+     display: table;
+     font-size: 0.8rem;
+     color: black;
+}
+
+.badge-link {
+     font-weight: 300;
+     color: rgba(0,0,255, 0.5);
+}
+
+.misc {
+     margin-top: 1rem;
+}
+
+.misc > div {
+     margin-bottom: 1rem;
+}
+
+.job-listings {
+     margin: 0;
+     text-align: center;
+     position: absolute;
+     left: 15%;
+     transform: translateY(-15%, 50%);
+}
+
+.job-card {
+     font-size: 0.8rem;
+     margin: 0;
+     margin-top: 1rem;
+     padding: 1rem;
+}
+
+.job-card .card-img-top {
+     width: 100%;
+     padding-top: 0.5rem;
+}
+
+.job-card .card-title {
+     font-size: 1rem;
+     text-align: center;
+     font-weight: bold;
+}
+
+.job-card a {
+     font-size: 0.5rem;
+}
