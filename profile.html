@@ -18,10 +18,10 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                         <a id="home" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                         <a class="nav-link" href="#">Link</a>
+                         <a id="job-add" class="nav-link" href="#">Add Job!</a>
                     </li>
                </ul>
                <form class="form-inline">
@@ -113,10 +113,58 @@
                </div>
           </div>
      </div>
-     <div class="disappear job-listings justify-content-center">
-          <div class="container job-list row justify-content-center">
+     <div class="disappear job-listings justify-content-center container">
+          <h1>Recently Added</h1>
+          <div class="custom-list row justify-content-center">
 
           </div>
+          <hr>
+          <h1>Other Jobs</h1>
+          <div class="job-list row justify-content-center">
+
+          </div>
+     </div>
+     <div class="disappear admin-panel container justify-content-center text-center">
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-12">
+                         <h1>Job Entry Form</h1>
+                    </div>
+               </div>
+          </div>
+          <div class="text-left">
+               <label for="job-name">Job Name</label>
+               <div class="input-group">
+                    <input id="job-name" type="text" class="form-control" placeholder="Job name" aria-label="Job name" aria-describedby="basic-addon2">
+               </div>
+               <br>
+               <label for="job-description">Job Description</label>
+               <div class="input-group">
+                    <input id="job-description" type="text" class="form-control" placeholder="Job description" aria-label="Job description" aria-describedby="basic-addon2">
+               </div>
+               <br>
+               <label for="company-name">Company Name</label>
+               <div class="input-group">
+                    <input id="company-name" type="text" class="form-control" placeholder="Company Name" aria-label="Company Name" aria-describedby="basic-addon2">
+               </div>
+               <br>
+               <label for="company-logo">Company Logo Link</label>
+               <div class="input-group">
+                    <input id="company-logo" type="text" class="form-control" placeholder="Company Logo Link" aria-label="Company Logo Link" aria-describedby="basic-addon2">
+               </div>
+               <br>
+               <label for="company-site">Company Site</label>
+               <div class="input-group">
+                    <input id="company-site" type="text" class="form-control" placeholder="Company Site" aria-label="Company Site" aria-describedby="basic-addon2">
+               </div>
+               <br>
+               <label for="offerer">Recruiter/Main Contact</label>
+               <div class="input-group">
+                    <input id="offerer" type="text" class="form-control" placeholder="Employee offerring/recruiting" aria-label="Company Site" aria-describedby="basic-addon2">
+               </div>
+               <br>
+          </div>
+          <button type="button" class="btn btn-outline-info" id="admin-panel-submit">Submit Form</button>
      </div>
      <script
      src="https://code.jquery.com/jquery-3.2.1.js"

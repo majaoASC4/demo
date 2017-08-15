@@ -226,6 +226,7 @@ body {
      position: absolute;
      left: 15%;
      transform: translateY(-15%, 50%);
+     margin-top: 3rem;
 }
 
 .job-card {
